@@ -1,0 +1,78 @@
+Heavy Penetration Maxigun
+
+
+REQUIRED DEPENDENCY
+
+Bingus Shared Loader v15 or newer / API 1 is a separate download:
+https://github.com/CowboyBingus/BingusSharedLoader/releases/latest
+
+Mod managers do not install it automatically. This mod will not activate
+without it.
+
+
+INSTALL
+
+1. Close Helldivers 2.
+2. Import Bingus-Shared-Loader-v15.zip and Heavy-Pen-Maxigun.zip into
+   HDArsenal or HD2MM. Use one manager, not both.
+3. Enable both entries.
+4. Place Bingus Shared Loader LAST, at the bottom of the load order, using
+   Arsenal's default priority setting. If you enabled first-mod priority,
+   place it first instead.
+5. Purge and Deploy.
+6. Launch the game.
+
+
+WHAT IT CHANGES
+
+The M-1000 Maxigun's armour penetration is raised from Medium to the tier the
+MG-206 HMG and APW-1 AMR already use, at the direct, slight-angle and
+large-angle impact classes. Extreme-angle hits remain unarmored, as in the
+stock weapon.
+
+Damage, durable damage, magazine capacity, rate of fire, recoil, handling,
+reload and audio are untouched. No other weapon is affected.
+
+
+SUPPORTED BUILD
+
+Steam build 24826606 / EXE 1.8.45317.0.
+
+The mod verifies the executable and game.dll before doing anything. On any
+other build it applies no change and records the reason in its log. A game
+update will therefore disable it rather than corrupt anything.
+
+
+VERIFYING
+
+Check this file after launching:
+
+  %LOCALAPPDATA%\CowboyBingus\Helldivers2\Logs\HeavyPenMaxigun.log
+
+A successful run records:
+
+  applied: penetration 3/3/3/0 -> 4/4/4/0 on damage-info 123
+
+Any other line states which check failed. A log line proves the bytes were
+written; it does not prove the engine consumed them. Firing the weapon does.
+
+
+UNINSTALLING
+
+Disable or remove the entry in your manager, then Purge and Deploy. The mod
+writes process memory only and never modifies a game file, so stock values
+return on the next launch.
+
+Keep Bingus Shared Loader enabled while any other mod depends on it.
+
+
+NOTES
+
+Helldivers 2 ships with GameGuard and is an online game. Data changes can
+behave differently for host and client; multiplayer has not been
+characterised. Single-player or private lobbies are recommended.
+
+Use at your own risk.
+
+
+Developed with assistance from Claude Opus 5.
