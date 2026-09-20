@@ -1,0 +1,17 @@
+# Third-party mod archives used as references. Not ours to redistribute, and
+# build.py explains how to fetch what it needs when they are absent.
+samplefile/
+
+# Bootstrapped from samplefile/ (or HPMG_BSL_SOURCE) by build.py.
+vendor/
+
+# Built packages.
+dist/
+
+# Local scratch.
+test.lua
+
+__pycache__/
+*.pyc
+.venv/
+tests/_artifacts/

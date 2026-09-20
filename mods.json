@@ -1,0 +1,47 @@
+{
+  "_comment": "Registry of your own HD2 addons. GUIDs must stay stable across releases of the same mod - a manager identifies a mod by its GUID.",
+  "namespace": "hpmg",
+  "game_dir": "D:/SteamLibrary/steamapps/common/Helldivers 2",
+  "mods": [
+    {
+      "id": "hello_test",
+      "display_name": "HPMG Hello Test",
+      "entry": "mods/hpmg/hello_test.lua",
+      "guid": "09250bd7-3801-49a5-b5bd-b780c9576325",
+      "output": "dist/HPMG-Hello-Test.zip",
+      "enabled": true
+    },
+    {
+      "id": "dl_probe",
+      "display_name": "HPMG DL Settings Probe",
+      "entry": "mods/hpmg/dl_probe.lua",
+      "guid": "e2300dc0-8dfa-407d-bc33-e1797bbe7893",
+      "output": "dist/HPMG-DL-Probe.zip",
+      "enabled": false
+    },
+    {
+      "id": "dl_dump",
+      "display_name": "HPMG DL Settings Dump",
+      "entry": "mods/hpmg/dl_dump.lua",
+      "guid": "3851040e-1ad5-4938-9715-6cff333c363a",
+      "output": "dist/HPMG-DL-Dump.zip",
+      "enabled": false
+    },
+    {
+      "id": "dl_hunt",
+      "display_name": "HPMG DL Hunt",
+      "entry": "mods/hpmg/dl_hunt.lua",
+      "guid": "d5e55fb2-9621-42ed-ab2f-fb79a2607b75",
+      "output": "dist/HPMG-DL-Hunt.zip",
+      "enabled": false
+    },
+    {
+      "id": "heavy_pen_maxigun",
+      "display_name": "Heavy Penetration Maxigun",
+      "entry": "mods/hpmg/heavy_pen_maxigun.lua",
+      "guid": "bb17c5a5-0db9-446d-8661-0dfdff400b63",
+      "output": "dist/Heavy-Pen-Maxigun.zip",
+      "enabled": true
+    }
+  ]
+}
